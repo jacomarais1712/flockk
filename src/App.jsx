@@ -45,39 +45,39 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        path: "/flockk/", // remove /flockk
+        path: "/",
         element: <Home />,
       },
       {
-        path: "/flockk/about", // remove /flockk
+        path: "/about",
         element: <About />,
       },
       {
-        path: "/flockk/services", // remove /flockk
+        path: "/services",
         element: <Services />,
       },
       {
-        path: "/flockk/pricing", // remove /flockk
+        path: "/pricing",
         element: <Pricing />
       },
       {
-        path: "/flockk/casestudy/1", // remove /flockk
+        path: "/casestudy/1",
         element: <CaseStudy1 />
       },
       {
-        path: "/flockk/casestudy/2", // remove /flockk
+        path: "/casestudy/2",
         element: <CaseStudy2 />
       },
       {
-        path: "/flockk/casestudy/3", // remove /flockk
+        path: "/casestudy/3",
         element: <CaseStudy3 />        
       },
       {
-        path: "/flockk/casestudy/4", // remove /flockk
+        path: "/casestudy/4",
         element: <CaseStudy4 />
       },
       {
-        path: "/flockk/contact", // remove /flockk
+        path: "/contact",
         element: <Contact />
       }
     ]

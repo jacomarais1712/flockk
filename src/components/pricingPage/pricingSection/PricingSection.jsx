@@ -56,7 +56,7 @@ function PricingSection() {
             annualPrice="$4,590 billed annually"
             savings="Save 15%"
             features={launchFeatures}
-            featuresTextColor="text-gray-400"
+            featuresTextColor="text-neutral-200"
           />
 
           <PricingCard
@@ -75,7 +75,7 @@ function PricingSection() {
             annualPrice="$9,690 billed annually"
             savings="Save 15%"
             features={scaleFeatures}
-            featuresTextColor="text-neutral-300"
+            featuresTextColor="text-neutral-200"
             aspectRatio="aspect-[0.50]"
           />
 
@@ -93,7 +93,7 @@ function PricingSection() {
             annualPrice="$18,360 billed annually"
             savings="Save 15%"
             features={dominateFeatures}
-            featuresTextColor="text-gray-400"
+            featuresTextColor="text-neutral-200"
             aspectRatio="aspect-[0.55]"
           />
         </main>

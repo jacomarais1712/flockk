@@ -68,6 +68,10 @@
   --flockk-neutral-900: #0E0E11;
 }
 
+#root {
+    overflow-x: hidden;
+}
+
 .space-grotesk {
   font-family: "Space Grotesk";
 }

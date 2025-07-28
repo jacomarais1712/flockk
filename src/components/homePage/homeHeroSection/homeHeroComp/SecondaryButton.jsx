@@ -11,7 +11,7 @@ export const SecondaryButton = ({ text, onClick }) => {
       onClick={handleClick}
     >
       <button
-        className="flex relative gap-1 justify-center items-center py-2.5 pr-1.5 pl-3.5 rounded cursor-pointer max-md:justify-center"
+        className="flex relative gap-1 justify-center items-center py-2.5 pr-1.5 pl-3.5 rounded cursor-pointer max-md:justify-center max-sm:hidden"
         onClick={onClick}
       >
         <span className="relative text-base font-bold tracking-wide leading-6 text-white max-sm:text-sm link">

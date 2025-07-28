@@ -12,7 +12,7 @@ export const NavbarDesktop = ({ handleNavClick, navItem }) => {
           <div className="h-auto object-contain max-h-16">
             <Link to='/'>
               <img
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/6ae0eead29a868d4bab249c6422adff546aafa3a?width=729"
+                src="/Flockk_logo_full.svg"
                 alt="Content"
               />
             </Link>
@@ -24,7 +24,7 @@ export const NavbarDesktop = ({ handleNavClick, navItem }) => {
         <div className="flex relative gap-4 justify-end items-center flex-shrink-0 max-sm:gap-2">
           <CallToActionButton />
         </div>
-        <BurgerMenuNav />
+        <BurgerMenuNav handleNavClick={handleNavClick}/>
       </div>
     </header>
   );

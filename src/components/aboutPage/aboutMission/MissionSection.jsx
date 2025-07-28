@@ -10,7 +10,7 @@ function MissionSection() {
         <img
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/295a67bc57d5d2f56a90701fb423806ac765efad?width=1114"
           alt=""
-          className="relative rounded-lg aspect-square h-[557px] w-[557px]"
+          className="relative rounded-lg aspect-square"
         />
         <div className="flex relative flex-col gap-10 items-start flex-[1_0_0] max-md:gap-8 max-sm:gap-6">
           <MissionContent />

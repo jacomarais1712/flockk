@@ -5,7 +5,7 @@ import CaseStudyDropDown from "./caseStudyDropDown";
 export const NavigationLinks = ({ navItem, handleNavClick }) => {
   const windowLocation = window.location.pathname;
   return (
-    <nav className="flex gap-8 items-center max-md:flex-wrap max-md:gap-6 max-md:justify-center max-sm:justify-center">
+    <nav className="flex gap-8 items-center max-md:flex-wrap max-md:gap-6 max-md:justify-center max-sm:justify-center max-sm:flex-col">
       <div className="flex gap-1 justify-center items-center">
         <Link
           to='/'

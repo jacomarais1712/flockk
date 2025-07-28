@@ -83,7 +83,7 @@ export const PricingCard = ({
               <span className="self-stretch my-auto">Price</span>
               <div className="flex-1 shrink self-stretch my-auto h-px border border-solid basis-0 bg-neutral-700 border-neutral-700 w-[234px]" />
             </div>
-            <div className="mt-2 text-6xl font-bold tracking-normal leading-tight text-zinc-200 max-md:text-4xl">
+            <div className="mt-2 text-6xl font-bold tracking-normal leading-tight text-zinc-200 max-md:text-4xl max-sm:text-4xl">
               <span style={{fontFamily: 'Space Grotesk, -apple-system, Roboto, Helvetica, sans-serif', fontSize: '52px', lineHeight: '67px', letterSpacing: '-0.3px', color: 'rgba(227,231,232,1)'}}>
                 {price}
               </span>

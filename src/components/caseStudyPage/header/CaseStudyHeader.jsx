@@ -17,7 +17,7 @@ const caseStudyHeaderDataExample = {
 function CaseStudyHeader({ csHeaderData }) {
   return (
     <header className="flex relative flex-col gap-20 items-center px-16 py-28 w-full max-md:gap-16 max-md:px-8 max-md:py-20 max-sm:gap-10 max-sm:px-4 max-sm:py-16">
-      <div className="flex relative gap-20 mt-20 justify-center items-start w-full max-w-[1312px] max-md:flex-col max-md:gap-16 max-md:items-center max-sm:gap-10">
+      <div className="flex relative gap-20 mt-20 justify-center items-start w-full max-w-[1312px] max-md:flex-col max-md:gap-16 max-md:items-center max-sm:gap-10 max-sm:mt-5">
         <section className="flex relative flex-col gap-6 items-start self-stretch flex-[1_0_0] max-md:items-center max-md:text-center">
           <div className="flex relative flex-col gap-6 items-start self-stretch">
             <CaseStudyTag />

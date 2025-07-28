@@ -9,7 +9,7 @@ export const ValueCard = ({
   marginTop = ""
 }) => {
   return (
-    <article className={`flex overflow-hidden relative flex-col justify-center p-8 max-w-full rounded-lg aspect-[0.994] w-[318px] max-md:px-5 ${className} ${marginTop} border-1 border-neutral-300`}>
+    <article className={`flex overflow-hidden relative flex-col justify-center p-8 max-w-full rounded-lg aspect-[0.994] w-[318px] max-md:px-5 ${className} ${marginTop} border-1 border-neutral-300 max-sm:self-center max-sm:mb-5 max-sm:mt-0`}>
       <img
         src={backgroundImage}
         alt=""

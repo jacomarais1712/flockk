@@ -8,7 +8,7 @@ export const ActionButtons = ({
   onSecondaryClick
 }) => {
   return (
-    <div className="flex gap-5 items-center self-start mt-10 text-base font-bold tracking-wide max-md:max-w-full">
+    <div className="flex gap-5 items-center self-start mt-10 text-base font-bold tracking-wide max-md:max-w-full max-sm:flex-col">
       <Link to='/contact'>
         <button
           className="flex gap-3 justify-center items-center cursor-pointer py-1.5 pr-1.5 pl-3.5 text-base text-zinc-900 font-bold rounded bg-[linear-gradient(180deg,#23F399_0%,#19E48B_100%)] hover:bg-emerald-100 hover:bg-none focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 hover:shadow-sm shadow-emerald-100/50"
@@ -26,7 +26,7 @@ export const ActionButtons = ({
       </Link>
       <Link to='/caseStudy/1'>
         <button
-          className="flex gap-1 justify-center items-center cursor-pointer self-stretch py-2.5 pr-1.5 pl-3.5 my-auto text-neutral-50 rounded link"
+          className="flex gap-1 justify-center items-center cursor-pointer self-stretch py-2.5 pr-1.5 pl-3.5 my-auto text-neutral-50 rounded link max-sm:border-1 max-sm:border-neutral-50 max-sm:border-solid"
           onClick={() => onSecondaryClick(0)}
         >
           <span className="self-stretch my-auto">

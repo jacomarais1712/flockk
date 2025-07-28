@@ -8,7 +8,7 @@ export const TagManagementSection = () => {
   return (
     <>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-      <section className="box-border flex relative flex-col gap-20 items-start px-16 py-28 mx-auto my-0 w-full max-w-[1440px] max-md:gap-16 max-md:px-10 max-md:py-20 max-sm:gap-10 max-sm:px-6 max-sm:py-16">
+      <section className="box-border flex relative flex-col gap-20 items-start px-16 py-28 mx-auto my-0 w-full max-w-[1440px] max-md:gap-16 max-md:px-10 max-md:py-20 max-sm:gap-10 max-sm:px-6 max-sm:py-3">
         <div className="flex relative gap-20 items-center self-stretch w-full max-md:flex-col max-md:gap-16 max-md:items-start max-sm:gap-10">
           <IllustrationSection />
           <ContentSection /> 

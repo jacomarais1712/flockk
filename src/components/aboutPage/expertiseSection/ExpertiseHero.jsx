@@ -24,7 +24,7 @@ export const ExpertiseHero = ({
           className="object-cover absolute inset-0 size-full rounded-lg"
           alt=""
         />
-        <div className="flex relative flex-wrap gap-10 justify-between items-center self-stretch my-auto min-w-60 w-[1226px]">
+        <div className="flex relative flex-wrap gap-10 justify-between items-center self-stretch my-auto min-w-60 w-[1226px] max-md:w-[800px] max-sm:w-[280px] max-sm:flex-col max-sm:py-10">
           <img
             src={heroImage}
             className="object-contain self-stretch my-auto aspect-[0.88] min-w-60 w-[434px] max-md:max-w-full"
