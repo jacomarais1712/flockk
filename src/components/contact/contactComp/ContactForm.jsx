@@ -82,7 +82,7 @@ export const ContactForm = () => {
               placeholder="Your name"
               required
               disabled={isSubmitting}
-              className="flex gap-2 items-center p-3 mt-2 w-full text-base tracking-wide border border-solid bg-neutral-950 border-white border-opacity-10 text-slate-500 max-md:max-w-full focus:outline-none focus:border-emerald-400 disabled:opacity-50 max-sm:max-w-100"
+              className="flex gap-2 items-center p-3 mt-2 w-full text-base tracking-wide border border-solid bg-neutral-950 border-white border-opacity-10 text-slate-500 max-md:max-w-full focus:outline-none focus:border-emerald-400 disabled:opacity-50 max-sm:max-w-100 max-sm:w-[240px]"
             />
           </div>
           <div className="mt-6 w-full max-md:max-w-full">
@@ -97,7 +97,7 @@ export const ContactForm = () => {
               placeholder="Your email address"
               required
               disabled={isSubmitting}
-              className="flex gap-2 items-center p-3 mt-2 w-full text-base tracking-wide border border-solid bg-neutral-950 border-white border-opacity-10 text-slate-500 max-md:max-w-full focus:outline-none focus:border-emerald-400 disabled:opacity-50 max-sm:max-w-100"
+              className="flex gap-2 items-center p-3 mt-2 w-full text-base tracking-wide border border-solid bg-neutral-950 border-white border-opacity-10 text-slate-500 max-md:max-w-full focus:outline-none focus:border-emerald-400 disabled:opacity-50 max-sm:max-w-100 max-sm:w-[240px]"
             />
           </div>
           <div className="mt-6 w-full max-md:max-w-full">
@@ -111,7 +111,7 @@ export const ContactForm = () => {
               placeholder="Type a message..."
               required
               disabled={isSubmitting}
-              className="flex items-start px-3 pt-3 pb-36 mt-2 w-full text-base tracking-wide border border-solid bg-neutral-950 border-white border-opacity-10 min-h-[180px] text-slate-500 max-md:pb-24 max-md:max-w-full focus:outline-none focus:border-emerald-400 resize-none disabled:opacity-50 max-sm:max-w-100"
+              className="flex items-start px-3 pt-3 pb-36 mt-2 w-full text-base tracking-wide border border-solid bg-neutral-950 border-white border-opacity-10 min-h-[180px] text-slate-500 max-md:pb-24 max-md:max-w-full focus:outline-none focus:border-emerald-400 resize-none disabled:opacity-50 max-sm:max-w-100 max-sm:w-[240px]"
             />
           </div>
         </div>
