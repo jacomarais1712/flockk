@@ -28,7 +28,7 @@ function TrustedBrands() {
         </h2>
         <div className="flex flex-wrap gap-6 justify-center items-center mt-8 max-md:max-w-full">
           <Slider className='w-full'
-              width="300px"
+              width="250px"
               duration={40}
               pauseOnHover={true}
               blurBorders={false}
@@ -39,7 +39,7 @@ function TrustedBrands() {
                   <img key={key}
                       src={logo.source} 
                       alt="logo" 
-                      className='object-contain shrink-0 self-stretch my-auto aspect-[3.57] w-[200px]'
+                      className='object-contain shrink-0 self-stretch my-auto aspect-[3.57] w-[200px] max-sm:w-[150px]'
                   />
               </Slider.Slide>
             ))}
