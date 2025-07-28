@@ -8,5 +8,4 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: '/', // Base path for GitHub Pages
 });
