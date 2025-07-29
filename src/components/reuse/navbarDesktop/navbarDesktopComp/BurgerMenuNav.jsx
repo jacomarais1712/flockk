@@ -89,7 +89,7 @@ export const BurgerMenuNav = ({ handleNavClick }) => {
               
               <div className="block">
                 <span className={`${windowLocation.includes('/caseStudy/') ? 'nav-link-active' : 'nav-link'}`}>
-                  <BurgerCaseStudyDropDown onItemClick={handleMenuClose} />
+                  <BurgerCaseStudyDropDown onItemClick={handleMenuClose} handleMenuClose={handleMenuClose}  />
                 </span>
               </div>
             </div>

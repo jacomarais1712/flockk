@@ -68,6 +68,31 @@
   --flockk-neutral-900: #0E0E11;
 }
 
+.bg-grad {
+  position: relative;
+  background: #0a0a0a;
+  border-radius: 20px;
+  z-index: 0; /* Ensure stacking */
+  padding: 1rem; /* Optional: space inside the box */
+  overflow: hidden;
+}
+
+.bg-grad::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px; /* Thickness of the border */
+  border-radius: inherit;
+  background: linear-gradient(-45deg, #97FCCF 30%, gray 70%);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: -1;
+}
+
+
 #root {
     overflow-x: hidden;
 }

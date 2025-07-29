@@ -10,11 +10,11 @@ import TestimonialSection from '../components/reuse/testimonials/TestimonialSect
 import FooterBanner from '/src/components/homepage/homeFooterBanner/FooterBanner'
 
 const Home = () => {
-    const BackgroundBlurStyle ='absolute left-[-24vw] bottom-[-100vh] w-[50vw] h-[50vw] rounded-full opacity-45 z-1 aspect-square'
-    const BackgroundBlurStyle2 = 'absolute right-[-26vw] bottom-[-10vh] w-[50vw] h-[50vw] rounded-full opacity-55 z-1 aspect-square'
+    const BackgroundBlurStyle ='absolute left-[-36vw] bottom-[-100vh] w-[50vw] h-[50vw] rounded-full opacity-45 z-1 aspect-square max-sm:opacity-60'
+    const BackgroundBlurStyle2 = 'absolute right-[-39vw] bottom-[5vh] w-[50vw] h-[50vw] rounded-full opacity-55 z-1 aspect-square max-sm:opacity-60'
     const homeHeader = {
         height: "513px",
-        width: "755px",
+        width: "767px",
         backgroundBlur: 1, //if only 1 is received, top right will be displayed but not bottom left, 2 will display both
         headline: {
             title: "Google Ads & Google Analytics ",

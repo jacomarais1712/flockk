@@ -23,8 +23,8 @@ export const ValueCard = ({
             className="object-contain self-stretch my-auto w-10 aspect-square shadow-[0px_0px_8px_rgba(35,243,153,0.3)]"
           />
         </div>
-        <div className="mt-0 w-full max-md:mt-10">
-          <h3 className="text-3xl font-medium tracking-normal leading-snug text-emerald-50">
+        <div className="mt-0 w-full max-md:mt-10 max-sm:mt-2">
+          <h3 className="text-3xl font-medium tracking-normal leading-snug text-emerald-50 max-sm:text-xl">
             {title}
           </h3>
           <p className="mt-2 text-sm tracking-wide leading-6 text-gray-400">
