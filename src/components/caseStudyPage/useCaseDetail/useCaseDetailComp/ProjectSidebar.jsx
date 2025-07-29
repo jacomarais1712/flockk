@@ -25,7 +25,7 @@ export function ProjectSidebar({ projectDetail }) {
         </h2>
       </header>
 
-      <div className="relative bg-white bg-opacity-10 h-[1.5px] w-[373px] max-sm:w-[297px]" />
+      <div className="relative bg-white bg-opacity-10 h-[1.5px] w-[373px] max-sm:max-w-[250px]" />
 
       <div className="flex relative flex-col gap-6 items-start self-stretch max-sm:gap-4">
         <Detail

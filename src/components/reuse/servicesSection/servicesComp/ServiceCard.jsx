@@ -13,7 +13,7 @@ export function ServiceCard({
     window.scrollTo({ top: 600, behavior: 'smooth' });
   } 
   return (
-    <article className="flex overflow-hidden relative flex-col flex-1 shrink px-6 pt-6 pb-8 rounded-lg aspect-[0.852] basis-0 min-w-60 max-md:px-5 h-110">
+    <article className="flex overflow-hidden relative flex-col flex-1 shrink px-6 pt-6 pb-8 rounded-lg aspect-[0.852] basis-0 min-w-60 max-md:px-5 h-110 max-sm:h-84">
       <img
         src={backgroundImage}
         alt=""
@@ -32,12 +32,12 @@ export function ServiceCard({
         </div>
       </div>
 
-      <div className="flex flex-col justify-between relative mt-20 w-full h-full max-md:mt-10">
+      <div className="flex flex-col justify-between relative mt-20 w-full h-full max-md:mt-10 max-sm:mt-5">
         <div className="w-full">
-          <h2 className="text-2xl font-medium tracking-normal leading-10 text-emerald-50">
+          <h2 className="text-2xl font-medium tracking-normal leading-10 text-emerald-50 max-sm:text-xl">
             {title}
           </h2>
-          <p className="mt-8 text-xl tracking-wide leading-6 text-gray-400">
+          <p className="mt-8 text-xl tracking-wide leading-6 text-gray-400 max-sm:text-lg">
             {description}
           </p>
         </div>

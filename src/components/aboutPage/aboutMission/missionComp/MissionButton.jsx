@@ -24,8 +24,8 @@ function MissionButton() {
     window.scrollTo({ top: position, behavior: 'smooth' });
   };
   return (
-    <Link to='/contact'>
-      <button onClick={() => missionButtonClick(600)} className="flex relative gap-3 justify-center items-center py-1 pr-1 pl-3 rounded cursor-pointer max-sm:gap-2 max-sm:px-3 max-sm:py-2 bg-[linear-gradient(180deg,#23F399_0%,#19E48B_100%)] hover:bg-emerald-100 hover:bg-none">
+    <Link className="max-sm:flex max-sm:flex-row max-sm:justify-center max-sm:w-full" to='/contact'>
+      <button onClick={() => missionButtonClick(600)} className="flex relative gap-3 justify-center items-center py-1 pr-1 pl-3 rounded cursor-pointer max-sm:gap-2 max-sm:px-1 bg-[linear-gradient(180deg,#23F399_0%,#19E48B_100%)] hover:bg-emerald-100 hover:bg-none">
         <span className="relative text-base font-bold tracking-wide leading-6 text-zinc-900 max-sm:py-2 max-sm:pr-2 max-sm:pl-4">
           Get In Touch
         </span>

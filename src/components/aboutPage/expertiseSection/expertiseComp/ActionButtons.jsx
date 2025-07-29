@@ -8,7 +8,7 @@ export const ActionButtons = ({
   onSecondaryClick
 }) => {
   return (
-    <div className="flex gap-5 items-center self-start mt-10 text-base font-bold tracking-wide max-md:max-w-full max-sm:flex-col">
+    <div className="flex gap-5 items-center self-start mt-10 text-base font-bold tracking-wide max-md:max-w-full max-sm:w-full max-sm:flex-col">
       <Link to='/contact'>
         <button
           className="flex gap-3 justify-center items-center cursor-pointer py-1.5 pr-1.5 pl-3.5 text-base text-zinc-900 font-bold rounded bg-[linear-gradient(180deg,#23F399_0%,#19E48B_100%)] hover:bg-emerald-100 hover:bg-none focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 hover:shadow-sm shadow-emerald-100/50"

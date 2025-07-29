@@ -5,7 +5,7 @@ import MissionButton from "./missionComp/MissionButton";
 
 function MissionSection() {
   return (
-    <section className="flex relative flex-col gap-20 items-start px-16 py-28 w-full bg-black">
+    <section className="flex relative flex-col gap-20 items-start px-16 py-28 w-full bg-black max-sm:px-10">
       <div className="flex relative gap-24 items-center self-stretch max-md:flex-col max-md:gap-16 max-sm:gap-10">
         <img
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/295a67bc57d5d2f56a90701fb423806ac765efad?width=1114"

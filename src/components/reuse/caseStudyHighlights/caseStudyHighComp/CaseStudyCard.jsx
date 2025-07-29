@@ -16,7 +16,7 @@ export const CaseStudyCard = ({
   return (
     <div className="p-[1.5px] bg-gradient-to-b from-emerald-600 to-neutral-600 rounded-lg flex-[1_0_0] max-md:flex-none">
       <article className="flex relative flex-col items-start rounded-[calc(0.5rem-1.5px)] h-full overflow-hidden">
-        <div className="flex relative flex-col items-start self-stretch">
+        <div className="flex relative flex-col items-start self-stretch max-sm:h-[186px]">
           <img
             src={imageUrl}
             alt=""
@@ -32,7 +32,7 @@ export const CaseStudyCard = ({
             )}
           </div>
         </div>
-        <div className="flex relative flex-col gap-6 items-start self-stretch px-6 pt-6 pb-8 bg-gradient-to-b from-neutral-800 to-neutral-900">
+        <div className="flex relative flex-col gap-6 items-start self-stretch px-6 pt-6 pb-8 bg-gradient-to-b from-neutral-800 to-neutral-900 max-sm:px-4">
           <div className="flex relative flex-col gap-4 items-start self-stretch">
             <div className="flex relative gap-3 items-center">
               <div className="flex relative gap-2 items-center">
@@ -48,7 +48,7 @@ export const CaseStudyCard = ({
                   }}
                 />
               </div>
-              <span className="relative text-xs font-semibold tracking-wide leading-3 uppercase text-neutral-300 max-sm:text-xs">
+              <span className="relative text-xs font-semibold tracking-wide leading-3 uppercase text-neutral-300 max-sm:text-[10px]">
                 {readTime}
               </span>
             </div>

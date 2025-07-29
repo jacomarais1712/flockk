@@ -16,15 +16,15 @@ export const HeroContent = ({
       <div className="flex relative flex-col gap-4 items-start self-stretch max-sm:gap-3">
         <TaglineBadge text={tagline} />
         <div className="flex relative flex-col gap-10 items-start self-stretch max-sm:gap-6">
-          <h1 className="relative self-stretch text-5xl font-bold space-grotesk tracking-tight leading-[56.4px] text-zinc-200 max-md:text-4xl max-sm:text-3xl max-sm:leading-8">
+          <h1 className="relative self-stretch text-5xl font-bold space-grotesk tracking-tight leading-[56.4px] text-zinc-200 max-md:text-4xl max-sm:text-3xl max-sm:leading-8 max-sm:text-center">
             {heading}
           </h1>
-          <p className="relative self-stretch text-base tracking-wide leading-6 text-gray-400 max-sm:text-sm max-sm:leading-5">
+          <p className="relative self-stretch text-base tracking-wide leading-6 text-gray-400 max-sm:text-sm max-sm:leading-5 max-sm:text-center">
             {description}
           </p>
         </div>
       </div>
-      <div className="flex relative gap-5 items-center max-md:flex-col max-md:gap-4 max-sm:gap-3">
+      <div className="flex relative gap-5 items-center max-md:flex-col max-md:gap-4 max-sm:gap-3 max-sm:self-center">
         <PrimaryButton text={primaryButtonText} onClick={onPrimaryClick} />
         <SecondaryButton text={secondaryButtonText} onClick={onSecondaryClick} />
       </div>

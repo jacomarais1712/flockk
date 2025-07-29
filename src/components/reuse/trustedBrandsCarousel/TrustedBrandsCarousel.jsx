@@ -23,7 +23,7 @@ function TrustedBrands() {
   return (
     <section className="flex flex-col justify-center items-center w-full">
       <div className="flex flex-col items-center pt-20 pb-12 w-full max-md:max-w-full">
-        <h2 className="text-base font-medium tracking-wide text-gray-400">
+        <h2 className="text-base font-medium tracking-wide text-gray-400 max-sm:text-center">
           Trusted by top brands across various industries
         </h2>
         <div className="flex flex-wrap gap-6 justify-center items-center mt-8 max-md:max-w-full">

@@ -72,7 +72,7 @@ function CaseStudyDropDown({ direction, ...args }) {
               <Link
                 to='/casestudy/1'
               >
-                Case Study 1
+                Oh My Cake!
               </Link>
             </div>
             
@@ -91,7 +91,7 @@ function CaseStudyDropDown({ direction, ...args }) {
               <Link
                 to='/casestudy/2'
               >
-                Case Study 2
+                Entelect
               </Link>
             </div>
             
@@ -110,7 +110,7 @@ function CaseStudyDropDown({ direction, ...args }) {
               <Link
                 to='/casestudy/3'
               >
-                Case Study 3
+                MoAfrica Tours
               </Link>
             </div>
             

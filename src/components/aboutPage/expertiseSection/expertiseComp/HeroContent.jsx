@@ -10,10 +10,10 @@ export const HeroContent = ({
     <div className="flex flex-col w-full max-md:max-w-full">
       <ExpertiseTag>{tagText}</ExpertiseTag>
       <div className="mt-4 w-full max-md:max-w-full">
-        <h1 className="text-5xl font-bold tracking-tight text-neutral-50 leading-[56px] max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
+        <h1 className="text-5xl font-bold tracking-tight text-neutral-50 leading-[56px] max-md:max-w-full max-md:text-4xl max-md:leading-[53px] max-sm:text-center">
           {heading}
         </h1>
-        <p className="mt-6 text-base tracking-wide leading-6 text-gray-400 max-md:max-w-full">
+        <p className="mt-6 text-base tracking-wide leading-6 text-gray-400 max-md:max-w-full max-sm:text-center">
           {description}
         </p>
       </div>

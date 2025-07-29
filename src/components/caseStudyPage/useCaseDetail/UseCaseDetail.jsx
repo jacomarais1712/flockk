@@ -150,7 +150,7 @@ export function UseCaseDetail({ useCaseData }) {
             </div>
 
             <div className="flex relative flex-col items-start self-stretch pb-4">
-              <p className="relative self-stretch text-base tracking-wide leading-6 text-neutral-200 pb-5">
+              <p className="relative self-stretch text-base tracking-wide leading-6 text-gray-400 pb-5">
                 {useCaseData.resultsHeading}
               </p>
               <ul className="flex relative flex-col gap-4 items-start self-stretch">
@@ -160,7 +160,7 @@ export function UseCaseDetail({ useCaseData }) {
                   </li>
                 ))}
               </ul>
-              <p className="relative self-stretch text-base tracking-wide leading-6 text-neutral-200 pt-5">
+              <p className="relative self-stretch text-base tracking-wide leading-6 text-gray-400 pt-5">
                 {useCaseData.resultsFooter}
               </p>              
             </div>

@@ -41,7 +41,7 @@ export const PricingCard = ({
           </h2>
           {badge && (
             <div className="flex gap-2 justify-center items-center self-stretch px-3 py-1 my-auto text-base font-bold tracking-wide text-emerald-400 bg-emerald-900 border border-emerald-400 border-solid shadow-sm rounded-[36px]">
-              <span className="self-stretch my-auto">{badge}</span>
+              <span className="self-stretch my-auto max-sm:text-[8px]">{badge}</span>
             </div>
           )}
         </header>
@@ -84,10 +84,10 @@ export const PricingCard = ({
               <div className="flex-1 shrink self-stretch my-auto h-px border border-solid basis-0 bg-neutral-700 border-neutral-700 w-[234px]" />
             </div>
             <div className="mt-2 text-6xl font-bold tracking-normal leading-tight text-zinc-200 max-md:text-4xl max-sm:text-4xl">
-              <span style={{fontFamily: 'Space Grotesk, -apple-system, Roboto, Helvetica, sans-serif', fontSize: '52px', lineHeight: '67px', letterSpacing: '-0.3px', color: 'rgba(227,231,232,1)'}}>
+              <span className="space-grotesk text-6xl leading-[67px] tracking-tight max-sm:text-4xl">
                 {price}
               </span>
-              <span style={{fontFamily: 'Space Grotesk, -apple-system, Roboto, Helvetica, sans-serif', fontSize: '36px', lineHeight: '43px', letterSpacing: '-0.18px', color: 'rgba(227,231,232,1)'}}>
+              <span className="space-grotesk text-4xl leading-[67px] tracking-tight max-sm:text-2xl">
                 {period}
               </span>
             </div>

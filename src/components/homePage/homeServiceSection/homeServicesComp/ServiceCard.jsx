@@ -10,7 +10,7 @@ export function ServiceCard({
   iconShadow = false
 }) {
   return (
-    <article className="flex overflow-hidden relative flex-col flex-1 shrink px-6 pt-6 pb-8 rounded-lg aspect-[0.852] basis-0 min-w-60 max-md:px-5 h-110">
+    <article className="flex overflow-hidden relative flex-col flex-1 shrink px-6 pt-6 pb-8 rounded-lg aspect-[0.852] basis-0 min-w-60 max-md:px-5 h-110 max-sm:h-90">
       <img
         src={backgroundImage}
         alt=""
