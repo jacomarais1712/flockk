@@ -5,32 +5,32 @@ const TrustedBrands = () => {
   const logoData = [
     {
       id: 1,
-      alt: "Company Logo 1",
+      alt: "Bramd_t",
       logo: '/trusted/Bramd_t.png'
     },
     {
       id: 2,
-      alt: "Company Logo 2",
+      alt: "ChangeFolio",
       logo: '/trusted/ChangeFolio.png'
     },
     {
       id: 3,
-      alt: "Company Logo 3",
+      alt: "CyberOffsec",
       logo: '/trusted/CyberOffsec.png'
     },
     {
       id: 4,
-      alt: "Company Logo 4",
+      alt: "DigitalIDTech",
       logo: '/trusted/DigitalIDTech.png'
     },
     {
       id: 5,
-      alt: "Company Logo 5",
+      alt: "IFXBrokers",
       logo: '/trusted/IFXBrokers.png'
     },
     {
       id: 6,
-      alt: "Company Logo 6",
+      alt: "RedesignInteriors",
       logo: '/trusted/RedesignInteriors.png'
     }
   ];
