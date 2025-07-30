@@ -11,7 +11,7 @@ function FooterBanner() {
     <section className="relative flex flex-col justify-center items-center px-16 py-32 min-h-[592px] max-md:px-5 max-md:py-24 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="/bannerImage.png"
+          src=""
           alt="Footer Banner"
           className="w-full h-full object-cover"
         />

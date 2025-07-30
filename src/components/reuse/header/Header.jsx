@@ -63,10 +63,10 @@ export const Header = ({ headerObj }) => {
           <TaglineBadge>
             {headerObj.tagline}
           </TaglineBadge>
-          : null
+          : <div className="-mt-10 max-sm:-mt-5 max-md:-mt-5 max-lg:-mt-10"></div>
         }
 
-        <section className="flex relative flex-col gap-4 md:gap-6 lg:gap-8 items-center self-stretch z-3 text-center mt-20 max-md:mt-5 max-lg:mt-10 max-sm:mt-5">
+        <section className="flex relative flex-col gap-4 md:gap-6 lg:gap-8 items-center self-stretch z-3 text-center">
           <HeroHeadline headline={headerObj.headline} extHeadline={headerObj.extHeadline} headingW={headerObj.width}/>
           <HeroDescription description={headerObj.description}/>
         </section>
