@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChecklistItem } from './ChecklistItem';
+import { ChecklistItem } from './CheckListItem';
 
 export const FeatureList = () => {
   const features = [
