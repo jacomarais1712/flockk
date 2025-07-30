@@ -77,6 +77,12 @@
   overflow: hidden;
 }
 
+.footerbannerimg {
+  background-image: linear-gradient(to top, #14B16D, #0C814E), url('bannerImage.png');
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+}
+
 .bg-grad::before {
   content: "";
   position: absolute;
