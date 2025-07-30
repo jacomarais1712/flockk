@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/reuse/header/Header'
-import TrustedBrands from '/src/components/homepage/homeTrustedBrands/TrustedBrands'
+import TrustedBrands from '../components/homepage/homeTrustedBrands/TrustedBrands'
 import ServicesSection from '../components/reuse/servicesSection/ServicesSection'
-import HomeStats from '/src/components/homepage/homeStats/HomeStats'
-import HeroSection from '/src/components/homepage/homeHeroSection/HeroSection'
-import CaseStudyHighlights from '/src/components/reuse/caseStudyHighlights/CaseStudyHighlights'
+import HomeStats from '../components/homepage/homeStats/HomeStats'
+import HeroSection from '../components/homepage/homeHeroSection/HeroSection'
+import CaseStudyHighlights from '../components/reuse/caseStudyHighlights/CaseStudyHighlights'
 import TestimonialSection from '../components/reuse/testimonials/TestimonialSection'
 import FooterBanner from '/src/components/homepage/homeFooterBanner/FooterBanner'
 
