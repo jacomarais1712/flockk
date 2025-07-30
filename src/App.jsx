@@ -30,10 +30,6 @@ function Layout() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  useEffect(() => {
-    console.log(navItem);
-  }, [navItem])
-
   return (
     <>
       <NavBarDesktop navItem={navItem} handleNavClick={handleNavClick}/>

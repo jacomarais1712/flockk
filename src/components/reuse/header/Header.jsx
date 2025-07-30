@@ -44,9 +44,6 @@ const headerObjExample = {
 }
 
 export const Header = ({ headerObj }) => {
-  console.log('headerObj:', headerObj);
-  console.log('radialBgs:', headerObj?.radialBgs);
-  console.log('radial1:', headerObj?.radialBgs?.radial1);
   const defaultStyle = '{`flex overflow-hidden relative flex-col justify-center items-center self-stretch h-[${headerObj.height}] max-md:h-[700px] max-sm:h-[600px]`}'
   const BackgroundBlurStyle ='absolute left-[-24vw] bottom-[-100vh] w-[50vw] h-[50vw] rounded-full opacity-45 z-1 aspect-square'
   const BackgroundBlurStyle2 = 'absolute right-[-26vw] bottom-[-10vh] w-[50vw] h-[50vw] rounded-full opacity-55 z-1 aspect-square'

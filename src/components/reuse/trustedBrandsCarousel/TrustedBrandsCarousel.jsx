@@ -20,15 +20,11 @@ const logos = {
 }
 
 function TrustedBrands() {
-  const [windowSize, setWindowSize] = useState(null)
+  const [windowSize, setWindowSize] = useState(600)
 
   window.addEventListener('resize', () => {
     setWindowSize(window.innerWidth);
   });
-
-  useEffect(() => {
-    console.log('Window resized:', window.innerWidth, window.innerHeight);
-  }, [windowSize])
 
   return (
     <section className="flex flex-col justify-center items-center w-full">
@@ -45,8 +41,8 @@ function TrustedBrands() {
               blurBorderColor={'#fff'}
           >   
             {Object.entries(logos).map(([key, logo]) => (
-              <Slider.Slide>
-                  <img key={key}
+              <Slider.Slide key={logo.name}>
+                  <img 
                       src={logo.source} 
                       alt="logo" 
                       className='object-contain shrink-0 self-stretch my-auto aspect-[3.57] w-[200px] max-sm:w-[150px]'
