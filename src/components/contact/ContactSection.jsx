@@ -10,7 +10,7 @@ function ContactSection() {
     {
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/48c2153dffe66bd9075b661007d18815e124a893?placeholderIfAbsent=true&apiKey=917e8cc76bd54a7d91c30bd7f061bdf9",
       title: "Email",
-      content: "@flockkk.com",
+      content: "info@flockkk.com",
       isLink: false,
     },
     {
