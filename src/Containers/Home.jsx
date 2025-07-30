@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/reuse/header/Header'
-import TrustedBrands from '../components/homepage/homeTrustedbrands/TrustedBrands'
+import TrustedBrands from '../components/homePage/homeTrustedbrands/TrustedBrands'
 import ServicesSection from '../components/reuse/servicesSection/ServicesSection'
-import HomeStats from '../components/homepage/homeStats/HomeStats'
-import HeroSection from '../components/homepage/homeHeroSection/HeroSection'
+import HomeStats from '../components/homePage/homeStats/HomeStats'
+import HeroSection from '../components/homePage/homeHeroSection/HeroSection'
 import CaseStudyHighlights from '../components/reuse/caseStudyHighlights/CaseStudyHighlights'
 import TestimonialSection from '../components/reuse/testimonials/TestimonialSection'
-import FooterBanner from '/src/components/homepage/homeFooterBanner/FooterBanner'
+import FooterBanner from '/src/components/homePage/homeFooterBanner/FooterBanner'
 
 const Home = () => {
     const BackgroundBlurStyle ='absolute left-[-600px] bottom-[-620px] w-[725px] h-[725px] max-sm:opacity-90 rounded-full opacity-45 z-1 aspect-square pointer-events-none'
