@@ -56,8 +56,8 @@ export const CaseStudyCard = ({
               <h3 className="relative self-stretch text-3xl font-medium tracking-normal leading-9 text-emerald-50 max-sm:text-2xl">
                 {title}
               </h3>
-              <p className="relative self-stretch text-sm tracking-wide leading-6 text-gray-400 max-sm:text-sm">
-                {description}
+              <p className="mt-10 relative self-stretch text-sm tracking-wide leading-6 text-gray-400 max-sm:text-sm">
+                {/* {description} */}
               </p>
             </div>
           </div>
