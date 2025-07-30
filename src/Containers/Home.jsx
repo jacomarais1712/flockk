@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/reuse/header/Header'
-import TrustedBrands from '../components/homepage/homeTrustedBrands/TrustedBrands'
+import TrustedBrands from '../components/homepage/homeTrustedbrands/TrustedBrands'
 import ServicesSection from '../components/reuse/servicesSection/ServicesSection'
 import HomeStats from '../components/homepage/homeStats/HomeStats'
 import HeroSection from '../components/homepage/homeHeroSection/HeroSection'
