@@ -1,5 +1,5 @@
 import * as React from "react";
-import { CheckmarkIcon } from "./CheckmarkIcon";
+import { CheckmarkIcon } from "./CheckMarkIcon";
 
 const features = [
   "Full GA4 setup or audit of your existing setup",
