@@ -5,14 +5,14 @@ import CaseStudyDropDown from "./caseStudyDropDown";
 export const NavigationLinks = ({ navItem, handleNavClick }) => {
   const windowLocation = window.location.pathname;
   return (
-    <nav className="flex relative gap-8 items-center max-md:gap-6 max-sm:hidden">
-      <ul className="flex gap-8 items-center max-md:gap-6">
+    <nav className="flex relative gap-8 items-center max-md:gap-6 max-sm:hidden max-lg:hidden">
+      <ul className="flex gap-8 items-center max-md:gap-6 max-lg:gap-4">
         <li>
           <Link to='/'
             onClick={() => {handleNavClick('home')}}
             className="flex relative gap-1 justify-center items-center"
           >
-            <span className={`relative text-base font-bold tracking-wide leading-6 max-md:text-sm ${windowLocation === '/' || windowLocation === '/contact' ? 'nav-link-active' : 'nav-link'}`}>
+            <span className={`relative text-base font-bold tracking-wide leading-6 max-lg:text-xs ${windowLocation === '/' || windowLocation === '/contact' ? 'nav-link-active' : 'nav-link'}`}>
               Home
             </span>
           </Link>
@@ -22,7 +22,7 @@ export const NavigationLinks = ({ navItem, handleNavClick }) => {
             onClick={() => {handleNavClick('about')}}
             className="flex relative gap-1 justify-center items-center"
           >
-            <span className={`relative text-base font-bold tracking-wide leading-6 max-md:text-sm ${windowLocation === '/about' ? 'nav-link-active' : 'nav-link'}`}>
+            <span className={`relative text-base font-bold tracking-wide leading-6 max-lg:text-xs ${windowLocation === '/about' ? 'nav-link-active' : 'nav-link'}`}>
               About Us
             </span>
           </Link>
@@ -33,7 +33,7 @@ export const NavigationLinks = ({ navItem, handleNavClick }) => {
             onClick={() => {handleNavClick('services')}}
             className="flex relative gap-1 justify-center items-center"
           >
-            <span className={`relative text-base font-bold tracking-wide leading-6 max-md:text-sm ${windowLocation === '/services' ? 'nav-link-active' : 'nav-link'}`}>
+            <span className={`relative text-base font-bold tracking-wide leading-6 max-lg:text-xs ${windowLocation === '/services' ? 'nav-link-active' : 'nav-link'}`}>
               Services
             </span>
           </Link>
@@ -44,7 +44,7 @@ export const NavigationLinks = ({ navItem, handleNavClick }) => {
             onClick={() => {handleNavClick('pricing')}}
             className="flex relative gap-1 justify-center items-center"
           >
-            <span className={`relative text-base font-bold tracking-wide leading-6 max-md:text-sm ${windowLocation === '/pricing' ? 'nav-link-active' : 'nav-link'}`}>
+            <span className={`relative text-base font-bold tracking-wide leading-6 max-lg:text-xs ${windowLocation === '/pricing' ? 'nav-link-active' : 'nav-link'}`}>
               Pricing
             </span>
           </Link>

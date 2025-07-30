@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Slider from 'react-infinite-logo-slider'
 import { SectionHeader } from './clientTestComp/SectionHeader';
 import { TestimonialCard } from './clientTestComp/TestimonialCard';
@@ -43,6 +43,12 @@ const testimonialData = [
 ];
 
 export const ClientTestimonials = () => {
+  const [windowWidth, setWindowWidth] = useState(null);
+
+  window.addEventListener('resize', () => {
+    setWindowWidth(window.innerWidth);
+  });
+
   return (
     <div className="flex flex-col items-center max-md:pl-5">
       <section className="flex flex-col items-center pt-20 pb-32 w-full max-w-full max-md:pb-24 max-md:max-w-full">
@@ -53,7 +59,7 @@ export const ClientTestimonials = () => {
         <div className="flex flex-col items-center mt-20 w-full max-w-[1818px] max-md:mt-10 max-md:max-w-full">
           <div className="flex overflow-hidden flex-wrap gap-8 justify-center items-start w-full">
             <Slider
-              width="400px"
+              width={`${windowWidth < 590 ? '200px' : '400px'}`}
               duration={40}
               pauseOnHover={true}
               blurBorders={false}
@@ -61,7 +67,7 @@ export const ClientTestimonials = () => {
             > 
               {testimonialData.map((testimonial) => (
                 <Slider.Slide> 
-                  <TestimonialCard
+                  <TestimonialCard windowWidth={windowWidth}
                     key={testimonial.id}
                     backgroundImage={testimonial.backgroundImage}
                     companyLogo={testimonial.companyLogo}

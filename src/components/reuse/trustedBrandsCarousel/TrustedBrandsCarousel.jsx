@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState, useEffect } from "react";
 import Slider from 'react-infinite-logo-slider'
 
 const logos = {
@@ -20,6 +20,16 @@ const logos = {
 }
 
 function TrustedBrands() {
+  const [windowSize, setWindowSize] = useState(null)
+
+  window.addEventListener('resize', () => {
+    setWindowSize(window.innerWidth);
+  });
+
+  useEffect(() => {
+    console.log('Window resized:', window.innerWidth, window.innerHeight);
+  }, [windowSize])
+
   return (
     <section className="flex flex-col justify-center items-center w-full">
       <div className="flex flex-col items-center pt-20 pb-12 w-full max-md:max-w-full">
@@ -28,7 +38,7 @@ function TrustedBrands() {
         </h2>
         <div className="flex flex-wrap gap-6 justify-center items-center mt-8 max-md:max-w-full">
           <Slider className='w-full'
-              width="250px"
+              width={`${windowSize < 590 ? '180px' : '250px'}`}
               duration={40}
               pauseOnHover={true}
               blurBorders={false}

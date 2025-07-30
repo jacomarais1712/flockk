@@ -100,7 +100,7 @@ const TestimonialSection = ({ testimonies }) => {
   const visibleTestimonials = testimonials.slice(currentIndex, currentIndex + testimonialsPerPage);
 
   return (
-    <section className="flex relative flex-col gap-20 items-center px-16 pt-28 pb-32 max-sm:px-8 max-sm:pt-20 max-sm:pb-24">
+    <section className="flex relative flex-col gap-20 items-center px-16 pt-28 pb-32 max-sm:px-8 max-sm:pt-5 max-sm:pb-24">
       {testimonies.heading === true || testimonies.heading === undefined ? (
         <SectionTitle tagline="TESTIMONIALS" title="What Our Clients Say About Us"/>
       ): null}      

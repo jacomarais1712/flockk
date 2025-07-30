@@ -39,7 +39,7 @@ function CaseStudyDropDown({ direction, ...args }) {
       <div ref={dropdownRef} className="relative inline-block">
         <span
           onClick={toggle}
-          className="cursor-pointer transition-colors duration-200 select-none"
+          className="cursor-pointer transition-colors duration-200 select-none max-lg:text-sm"
           role="button"
           tabIndex={0}
           onKeyDown={(e) => {
