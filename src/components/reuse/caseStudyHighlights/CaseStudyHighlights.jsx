@@ -4,7 +4,7 @@ import { CaseStudyCard } from './caseStudyHighComp/CaseStudyCard';
 import { BackgroundBlur } from '../../reuse/comp/BackgroundBlur';
 
 export const CaseStudyHighlights = () => {
-  const backgroundBlurStyle = 'absolute left-[-400px] bottom-[-231px] w-[725px] h-[725px] rounded-full opacity-45 z-1 aspect-square'
+  const backgroundBlurStyle = 'absolute left-[-400px] bottom-[-231px] w-[725px] h-[725px] rounded-full opacity-45 z-1 aspect-square pointer-events-none'
   const caseStudies = [
     {
       id: 1,

@@ -7,8 +7,8 @@ import ClientTestimonials from '../components/pricingPage/clientTestimonials/Cli
 import PricingFooterBanner from '../components/pricingPage/pricingFooterBanner/PricingFooterBanner';
 
 const Pricing = () => {
-    const BgStyle1 ='absolute left-[-24vw] bottom-[-100vh] w-[50vw] h-[50vw] rounded-full opacity-45 z-1 aspect-square'
-    const BgStyle2 = 'absolute right-[-26vw] bottom-[-10vh] w-[50vw] h-[50vw] rounded-full opacity-55 z-1 aspect-square'
+    const BgStyle1 ='absolute left-[-600px] bottom-[-354px] w-[725px] h-[725px] max-sm:opacity-90 rounded-full opacity-45 z-1 aspect-square pointer-events-none'
+    const BgStyle2 = 'absolute right-[-600px] bottom-[41px] w-[725px] h-[725px] max-sm:opacity-90 rounded-full opacity-55 z-1 aspect-square pointer-events-none'
     const pricingHeader = {
         height: "513px",
         width: "755px",

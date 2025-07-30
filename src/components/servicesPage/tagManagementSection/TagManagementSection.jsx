@@ -4,7 +4,7 @@ import { ContentSection } from './tagManSectionComp/ContentSection';
 import { BackgroundBlur } from '../../reuse/comp/BackgroundBlur';
 
 export const TagManagementSection = () => {
-  const BackgroundBlurStyle = 'absolute right-[-42vw] bottom-[-73vh] w-[50vw] h-[50vw] rounded-full opacity-55 z-1 aspect-square'
+  const BackgroundBlurStyle = 'absolute right-[-652px] bottom-[-340px] w-[725px] h-[725px] max-sm:opacity-90 rounded-full opacity-55 z-1 aspect-square'
   return (
     <>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />

@@ -51,7 +51,7 @@ export const BurgerMenuNav = ({ handleNavClick }) => {
 
           {/* Menu Panel */}
           <div className="fixed top-0 left-0 w-full h-screen z-50 bg-black">
-            <div className="flex flex-col justify-evenly mt-10 pb-20 h-full p-6 space-y-6 items-center">
+            <div className="flex flex-col justify-evenly mt-5 pb-20 h-full p-6 items-center">
               {/* Close Button */}
               <button
                 onClick={handleMenuClose}

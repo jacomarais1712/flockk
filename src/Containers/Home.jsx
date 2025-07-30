@@ -10,8 +10,8 @@ import TestimonialSection from '../components/reuse/testimonials/TestimonialSect
 import FooterBanner from '/src/components/homepage/homeFooterBanner/FooterBanner'
 
 const Home = () => {
-    const BackgroundBlurStyle ='absolute left-[-36vw] bottom-[-100vh] w-[50vw] h-[50vw] rounded-full opacity-45 z-1 aspect-square max-sm:opacity-60'
-    const BackgroundBlurStyle2 = 'absolute right-[-39vw] bottom-[5vh] w-[50vw] h-[50vw] rounded-full opacity-55 z-1 aspect-square max-sm:opacity-60'
+    const BackgroundBlurStyle ='absolute left-[-600px] bottom-[-620px] w-[725px] h-[725px] max-sm:opacity-90 rounded-full opacity-45 z-1 aspect-square pointer-events-none'
+    const BackgroundBlurStyle2 = 'absolute right-[-600px] bottom-[41px] w-[725px] h-[725px] max-sm:opacity-90 rounded-full opacity-55 z-1 aspect-square pointer-events-none'
     const homeHeader = {
         height: "513px",
         width: "767px",
