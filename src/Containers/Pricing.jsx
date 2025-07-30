@@ -41,7 +41,7 @@ const Pricing = () => {
             <PricingSection />
             <FAQ scrollToContact={scrollToContact}/>
             <TrustedBrandsCarousel />
-            <ClientTestimonials />
+            {/* <ClientTestimonials /> */}
             <PricingFooterBanner />
         </>
 

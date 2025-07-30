@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState, useeffect } from 'react';
+import { Link } from 'react-router-dom'
 
-export const FooterCredits = () => {
+export const FooterCredits = ({ footerButtonClick }) => {
   return (
     <section className="flex flex-col gap-8 items-center w-full max-w-[1312px]">
       <div className="w-full h-px bg-neutral-800" />
@@ -8,24 +9,27 @@ export const FooterCredits = () => {
         <p className="text-sm tracking-wide leading-6 text-emerald-500">
           © 2025 Flockk. All rights reserved.
         </p>
-        <a
-          href="#"
+        <Link
+          to='/privacy.pdf'
+          target='blank'
+          onClick={() => footerButtonClick()}
           className="text-sm tracking-wide leading-6 text-emerald-500 underline"
         >
           Privacy Policy
-        </a>
-        <a
-          href="#"
+        </Link>
+        <Link
+          to='/terms.pdf'
+          target='blank'
+          onClick={() => footerButtonClick()}
           className="text-sm tracking-wide leading-6 text-emerald-500 underline"
         >
-          Terms of Use
-        </a>
-        <a
-          href="#"
+          Terms and Conditions
+        </Link>
+        {/* <Link
           className="text-sm tracking-wide leading-6 text-emerald-500 underline"
         >
           Cookie Policy
-        </a>
+        </Link> */}
       </div>
     </section>
   );

@@ -12,7 +12,7 @@ const CaseStudy = ({ caseStudyHData, stats, useCase, testimonial, scrollToTop })
             <CaseStudyHeader csHeaderData={caseStudyHData}/>
             <CaseStudyStat statsData={stats}/>
             <UseCaseDetail useCaseData={useCase}/>
-            <CustTestimonial testiData={testimonial}/>
+            {/* <CustTestimonial testiData={testimonial}/> */}
             <CaseStudyHighlights />
             <CaseStudyFooterBanner scrollToTop={scrollToTop}/>
         </>

@@ -43,7 +43,11 @@ const testimonialData = [
 ];
 
 export const ClientTestimonials = () => {
-  const [windowWidth, setWindowWidth] = useState(null);
+  const [windowWidth, setWindowWidth] = useState(600);
+
+  window.addEventListener('resize', () => {
+    setWindowWidth(window.innerWidth);
+  });
 
   window.addEventListener('resize', () => {
     setWindowWidth(window.innerWidth);

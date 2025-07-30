@@ -63,7 +63,7 @@ const Home = () => {
             <HomeStats />
             <HeroSection />
             <CaseStudyHighlights />
-            <TestimonialSection testimonies={testimoniesPer}/>
+            {/* <TestimonialSection testimonies={testimoniesPer}/> */}
             <FooterBanner />
         </>
 

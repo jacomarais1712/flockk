@@ -15,6 +15,7 @@ import CaseStudy1 from './Containers/case studies/CaseStudy1';
 import CaseStudy2 from './Containers/case studies/CaseStudy2';
 import CaseStudy3 from './Containers/case studies/CaseStudy3';
 import CaseStudy4 from './Containers/case studies/CaseStudy4';
+import TermsAndConditions from './components/termsOfUse/TermsAndConditions';
 
 import './App.css'
 
@@ -26,6 +27,10 @@ function Layout() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+  const footerButtonClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
   useEffect(() => {
     console.log(navItem);
   }, [navItem])
@@ -34,7 +39,7 @@ function Layout() {
     <>
       <NavBarDesktop navItem={navItem} handleNavClick={handleNavClick}/>
         <Outlet/>
-      <Footer navItem={navItem} handleNavClick={handleNavClick}/>
+      <Footer footerButtonClick={footerButtonClick} navItem={navItem} handleNavClick={handleNavClick}/>
     </>
   )
 }

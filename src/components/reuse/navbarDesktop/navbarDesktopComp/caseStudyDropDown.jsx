@@ -56,10 +56,10 @@ function CaseStudyDropDown({ direction, ...args }) {
         </span>
 
         {dropdownOpen && (
-          <div className="absolute top-full left-0 mt-2 w-32 border border-neutral-200 rounded-lg shadow-lg z-50 py-1">
+          <div className="absolute top-full left-0 mt-2 w-34 border border-neutral-200 rounded-lg shadow-lg z-50 py-1">
             <div
               onClick={() => handleItemClick(() => console.log('Item 1 clicked'))}
-              className="block px-4 py-2 bg-black hover:bg-emerald-500 hover:text-emerald-600 cursor-pointer transition-all duration-150 text-sm font-normal"
+              className="block px-4 py-2 bg-black hover:bg-emerald-700 hover:text-emerald-600 cursor-pointer transition-all duration-150 text-sm font-normal"
               role="menuitem"
               tabIndex={0}
               onKeyDown={(e) => {
@@ -70,15 +70,16 @@ function CaseStudyDropDown({ direction, ...args }) {
               }}
             >
               <Link
+                style={{color: 'var(--flockk-neutral-50)'}}
                 to='/casestudy/1'
               >
-                Case Study 1
+                Oh My Cake!
               </Link>
             </div>
             
             <div
               onClick={() => handleItemClick(() => console.log('Item 2 clicked'))}
-              className="block px-4 py-2 bg-black hover:bg-emerald-500 hover:text-emerald-600 cursor-pointer transition-all duration-150 text-sm font-normal"
+              className="block px-4 py-2 bg-black hover:bg-emerald-700 hover:text-emerald-600 cursor-pointer transition-all duration-150 text-sm font-normal"
               role="menuitem"
               tabIndex={0}
               onKeyDown={(e) => {
@@ -89,15 +90,16 @@ function CaseStudyDropDown({ direction, ...args }) {
               }}
             >
               <Link
+                style={{color: 'var(--flockk-neutral-50)'}}
                 to='/casestudy/2'
               >
-                Case Study 2
+                Entelect
               </Link>
             </div>
             
             <div
               onClick={() => handleItemClick(() => console.log('Item 3 clicked'))}
-              className="block px-4 py-2 bg-black hover:bg-emerald-500 hover:text-emerald-600 cursor-pointer transition-all duration-150 text-sm font-normal"
+              className="block px-4 py-2 bg-black hover:bg-emerald-700 hover:text-emerald-600 cursor-pointer transition-all duration-150 text-sm font-normal"
               role="menuitem"
               tabIndex={0}
               onKeyDown={(e) => {
@@ -108,9 +110,10 @@ function CaseStudyDropDown({ direction, ...args }) {
               }}
             >
               <Link
+                style={{color: 'var(--flockk-neutral-50)'}}
                 to='/casestudy/3'
               >
-                Case Study 3
+                MoAfrica Tours
               </Link>
             </div>
             

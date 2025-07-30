@@ -56,7 +56,7 @@ const Services = () => {
             <GoogleAnalyticsSection />
             <TagManagementSection />
             <DashboardSection />
-            <TestimonialSection testimonies={testimoniesPer}/>
+            {/* <TestimonialSection testimonies={testimoniesPer}/> */}
             <ServicesFooterBanner handleLinkClick={handleLinkClick}/>
         </>
         
