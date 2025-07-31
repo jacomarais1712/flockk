@@ -23,7 +23,7 @@ export const PricingCard = ({
     window.scrollTo({ top: 600, behavior: 'smooth' });
   }
   return (
-    <div className={`flex relative flex-col flex-1 shrink justify-start p-10 rounded-lg ${aspectRatio} basis-0 min-w-60 max-md:px-5 ${paddingBottom}`}>
+    <div className={`flex relative flex-col flex-1 shrink justify-start p-10 rounded-lg min-h-[1200px] basis-0 min-w-60 max-md:px-5 lg:min-h-[1600px] ${paddingBottom}`}>
       <img
         src={backgroundImage}
         className="object-cover absolute inset-0 size-full"

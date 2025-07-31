@@ -9,7 +9,7 @@ import TrustedBrandsCarousel from '../components/reuse/trustedBrandsCarousel/Tru
 import AboutFooterBanner from '../components/aboutPage/aboutFooterBanner/AboutFooterBanner'
 
 const About = () => {
-    const HeaderStyle = 'absolute right-[-600px] bottom-[-54px] w-[725px] h-[725px] max-sm:opacity-90 rounded-full opacity-55 z-1 aspect-square pointer-events-none'
+    const HeaderStyle = 'absolute right-[-748px] bottom-[320px] w-[725px] h-[725px] max-sm:opacity-90 rounded-full opacity-55 z-1 aspect-square pointer-events-none'
     const servicesHeadline = 'What We Do Best'
     const header = {
         height: "500px",

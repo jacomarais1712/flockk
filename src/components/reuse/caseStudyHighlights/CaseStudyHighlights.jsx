@@ -10,6 +10,7 @@ export const CaseStudyHighlights = () => {
       id: 1,
       imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/c1dcd32f201e858ebd0ff74b9ccf5453335f1900?width=843",
       logo: '/customer_logos/OhMyCake.png',
+      scale: 'scale-75',
       title: "How Oh My Cake! went from €0 to €20K per month",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
     },
@@ -17,14 +18,16 @@ export const CaseStudyHighlights = () => {
       id: 2,
       imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/501bf25bb9553ae578716004e72a28c58aee1ed9?width=843",
       logo: '/customer_logos/Entelect.png',
-      title: "From messy data to measurable growth",
+      scale: 'scale-65',
+      title: "How Entelect Scaled High-Quality Talent Acquisition",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
     },
     {
       id: 3,
       imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/187774ef793b0e897c16e7ec4a7a4903114c3ae1?width=843",
       logo: '/customer_logos/MoAfricaTours.png',
-      title: "Cutting CPA in half for a scaling eCommerce store",
+      scale: 'scale-60',
+      title: "How MoAfrika Tours Achieved a 1407% ROAS",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
     }
   ];
@@ -49,6 +52,7 @@ export const CaseStudyHighlights = () => {
                 caseStudyId={study.id}
                 imageUrl={study.imageUrl}
                 logo={study.logo}
+                logoScale={study.scale}
                 logoUrl={study.logoUrl}
                 title={study.title}
                 description={study.description}

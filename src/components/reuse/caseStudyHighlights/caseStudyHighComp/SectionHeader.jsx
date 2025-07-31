@@ -14,7 +14,7 @@ export const SectionHeader = () => {
             Our Success Stories
           </h1>
           <p className="relative self-stretch text-xl tracking-wide leading-8 text-center text-slate-500 max-md:text-lg max-sm:text-base">
-            87+ clients. 10+ years specialising in paid media and analytics.
+            100+ clients. 10+ years specializing in paid media and analytics.
             Explore a few of the stories behind the numbers.
           </p>
         </div>

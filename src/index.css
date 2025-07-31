@@ -89,7 +89,7 @@
   inset: 0;
   padding: 1px; /* Thickness of the border */
   border-radius: inherit;
-  background: linear-gradient(-45deg, #97FCCF 30%, gray 70%);
+  background: linear-gradient(-45deg, var(--flockk-emerald-400) 30%, gray 70%);
   -webkit-mask: 
     linear-gradient(#fff 0 0) content-box, 
     linear-gradient(#fff 0 0);

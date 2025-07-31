@@ -38,7 +38,7 @@ function PricingSection() {
   ];
 
   return (
-    <div className="px-16 pb-20 max-md:px-5">
+    <div className="px-16 pb-20 max-md:px-5 mt-10 max-sm:mt-5">
       <div className="flex flex-col justify-center w-full max-md:max-w-full">
 
         <main className="flex flex-wrap gap-8 justify-center items-end mt-14 w-full max-md:mt-10 max-md:max-w-full">
@@ -57,6 +57,7 @@ function PricingSection() {
             savings="Save 15%"
             features={launchFeatures}
             featuresTextColor="text-neutral-200"
+            aspectRatio="aspect-[0.50]"
           />
 
           <PricingCard
@@ -94,7 +95,7 @@ function PricingSection() {
             savings="Save 15%"
             features={dominateFeatures}
             featuresTextColor="text-neutral-200"
-            aspectRatio="aspect-[0.55]"
+            aspectRatio="aspect-[0.50]"
           />
         </main>
       </div>

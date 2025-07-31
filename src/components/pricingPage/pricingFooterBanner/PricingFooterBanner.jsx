@@ -12,10 +12,10 @@ function PricingFooterBanner() {
       <div className="flex relative flex-col max-w-full w-[768px]">
         <div className="w-full text-center max-md:max-w-full">
           <h1 className="text-5xl text-shadow-xs text-shadow-white font-bold tracking-tight leading-tight text-zinc-200 max-md:max-w-full max-md:text-4xl">
-            Not Sure Which Plan Is Right for You?
+            Let’s Find Your Flockk
           </h1>
           <p className="mt-5 text-xl tracking-wide text-neutral-300 max-md:max-w-full">
-            We'll help you pick the right package based on your goals and budget.
+            We’ll deliver a custom Google Ads strategy with meticulous execution and transparent tracking for confident scaling.
           </p>
         </div>
         <button className="flex gap-3 justify-center items-center self-center cursor-pointer hover:bg-emerald-100 hover:bg-none py-1.5 pr-1.5 pl-3.5 mt-8 text-base font-bold tracking-wide rounded bg-[linear-gradient(180deg,#23F399_0%,#19E48B_100%)] text-zinc-900">

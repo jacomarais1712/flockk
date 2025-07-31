@@ -6,16 +6,16 @@ const servicesData = [
   {
     id: 1,
     backgroundImage: "https://cdn.builder.io/api/v1/image/assets/TEMP/fd2774bbb6f2377d775dc2b0f98372f530968b3c?placeholderIfAbsent=true&apiKey=b57ec36c5a364c76a8ad0ee0e3eff0ce",
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/36b5d87ad4e662f6927d9e84abf3da802e4a1fc4?placeholderIfAbsent=true&apiKey=b57ec36c5a364c76a8ad0ee0e3eff0ce",
+    icon: "/services_icons/g_ads.svg",
     title: "Google Ads Management",
     description: "Setup, Strategy, Optimisation & Growth",
     buttonIcon: "https://cdn.builder.io/api/v1/image/assets/TEMP/bb1c1813981520cd36804b905f1bf902776d688b?placeholderIfAbsent=true&apiKey=b57ec36c5a364c76a8ad0ee0e3eff0ce",
-    iconShadow: true
+    iconShadow: false
   },
   {
     id: 2,
     backgroundImage: "https://cdn.builder.io/api/v1/image/assets/TEMP/fd2774bbb6f2377d775dc2b0f98372f530968b3c?placeholderIfAbsent=true&apiKey=b57ec36c5a364c76a8ad0ee0e3eff0ce",
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/8233ac73556428b04cfd3d04e009022296a2c500?placeholderIfAbsent=true&apiKey=b57ec36c5a364c76a8ad0ee0e3eff0ce",
+    icon: "/services_icons/analytics.svg",
     title: "Google Analytics Setup & Utilisation",
     description: "Understand what works & where to improve.",
     buttonIcon: "https://cdn.builder.io/api/v1/image/assets/TEMP/bb1c1813981520cd36804b905f1bf902776d688b?placeholderIfAbsent=true&apiKey=b57ec36c5a364c76a8ad0ee0e3eff0ce",
@@ -24,20 +24,20 @@ const servicesData = [
   {
     id: 3,
     backgroundImage: "https://cdn.builder.io/api/v1/image/assets/TEMP/fd2774bbb6f2377d775dc2b0f98372f530968b3c?placeholderIfAbsent=true&apiKey=b57ec36c5a364c76a8ad0ee0e3eff0ce",
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/2d03a6a9f8b937ba044c425b19c81e736a26f009?placeholderIfAbsent=true&apiKey=b57ec36c5a364c76a8ad0ee0e3eff0ce",
+    icon: "/services_icons/tag.svg",
     title: "Tracking & Tag Implementation",
     description: "Advanced Tracking Without Developer Delays",
     buttonIcon: "https://cdn.builder.io/api/v1/image/assets/TEMP/bb1c1813981520cd36804b905f1bf902776d688b?placeholderIfAbsent=true&apiKey=b57ec36c5a364c76a8ad0ee0e3eff0ce",
-    iconShadow: true
+    iconShadow: false
   },
   {
     id: 4,
     backgroundImage: "https://cdn.builder.io/api/v1/image/assets/TEMP/fd2774bbb6f2377d775dc2b0f98372f530968b3c?placeholderIfAbsent=true&apiKey=b57ec36c5a364c76a8ad0ee0e3eff0ce",
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/334df0a2c59937773f22a69589382d49a05ce7c6?placeholderIfAbsent=true&apiKey=b57ec36c5a364c76a8ad0ee0e3eff0ce",
+    icon: "/services_icons/looker.svg",
     title: "Looker Studio Data Dashboards",
     description: "Clear, Automated, Decision-Ready Dashboards",
     buttonIcon: "https://cdn.builder.io/api/v1/image/assets/TEMP/1a8d4c654f7838a656766d79a718b31d34d3c614?placeholderIfAbsent=true&apiKey=b57ec36c5a364c76a8ad0ee0e3eff0ce",
-    iconShadow: true
+    iconShadow: false
   }
 ];
 

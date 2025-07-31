@@ -4,7 +4,7 @@ import { ActionButtons } from './expertiseComp/ActionButtons';
 
 export const ExpertiseHero = ({
   backgroundImage = "/backgrounds/expertise/hero_bg1.svg",
-  heroImage = "/owner/Frooz1.svg",
+  heroImage = "/owner/Frooz1.png",
   tagText = "Our Expertise",
   heading = "Meet Francois: Director & Paid Media Strategist",
   description = "Leveraging over a decade of hands-on performance marketing experience, Francois drives sustainable growth for brands across Europe and South Africa. He translates complex data into actionable strategy, delivering measurable results through smart, intentional execution. His approach ensures every campaign is meticulously crafted to achieve your core marketing and business objectives.",

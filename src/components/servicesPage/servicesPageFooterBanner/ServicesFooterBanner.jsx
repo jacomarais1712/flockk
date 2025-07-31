@@ -15,7 +15,7 @@ function ServicesFooterBanner({ handleLinkClick }) {
             Let's Find Your Flockk
           </h1>
           <p className="mt-5 text-xl tracking-wide text-neutral-300 max-md:max-w-full">
-            Let's talk strategy, growth, and what's next for your business.
+            We’ll deliver a custom Google Ads strategy with meticulous execution and transparent tracking for confident scaling.
           </p>
         </div>
         <button className="flex gap-3 justify-center items-center self-center py-1.5 pr-1.5 pl-3.5 mt-8 text-base font-bold tracking-wide rounded bg-[linear-gradient(180deg,#23F399_0%,#19E48B_100%)] text-zinc-900 hover:bg-emerald-100 hover:shadow-sm shadow-emerald-100/50 hover:bg-none">

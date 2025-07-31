@@ -20,7 +20,7 @@ export const ValueCard = ({
           <img
             src={icon}
             alt={`${title} icon`}
-            className="object-contain self-stretch my-auto w-10 aspect-square shadow-[0px_0px_8px_rgba(35,243,153,0.3)]"
+            className="object-contain self-stretch my-auto w-9 mx-auto aspect-square"
           />
         </div>
         <div className="mt-0 w-full max-md:mt-10 max-sm:mt-2">

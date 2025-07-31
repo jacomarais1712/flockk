@@ -9,8 +9,8 @@ import TestimonialSection from '../components/reuse/testimonials/TestimonialSect
 import ServicesFooterBanner from '../components/servicesPage/servicesPageFooterBanner/ServicesFooterBanner'
 
 const Services = () => {
-    const BackgroundBlurStyle ='absolute left-[-600px] bottom-[-620px] w-[725px] h-[725px] max-sm:opacity-90 rounded-full opacity-45 z-1 aspect-square pointer-events-none'
-    const BackgroundBlurStyle2 = 'absolute right-[-600px] bottom-[95px] w-[725px] h-[725px] max-sm:opacity-90 rounded-full opacity-55 z-1 aspect-square pointer-events-none'
+    const BackgroundBlurStyle ='absolute left-[-700px] bottom-[-400px] w-[725px] h-[725px] max-sm:opacity-90 rounded-full opacity-50 z-1 aspect-square pointer-events-none'
+    const BackgroundBlurStyle2 = 'absolute right-[-748px] bottom-[320px] w-[725px] h-[725px] max-sm:opacity-90 rounded-full opacity-55 z-1 aspect-square pointer-events-none'
     const testimoniesPer = {
         amount: 1,
         background: false
