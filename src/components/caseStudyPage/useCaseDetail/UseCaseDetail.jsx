@@ -138,7 +138,7 @@ export function UseCaseDetail({ useCaseData }) {
               <figcaption className="flex relative gap-2 items-start self-stretch">
                 <div className="relative self-stretch w-0.5 bg-emerald-400" />
                 <p className="relative text-sm tracking-wide leading-6 flex-[1_0_0] text-neutral-300">
-                  {useCaseData.imageCaption}
+                  {/* {useCaseData.imageCaption} */}
                 </p>
               </figcaption>
             </figure>

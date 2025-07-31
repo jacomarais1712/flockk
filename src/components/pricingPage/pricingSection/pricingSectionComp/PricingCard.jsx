@@ -84,7 +84,7 @@ export const PricingCard = ({
               <div className="flex-1 shrink self-stretch my-auto h-px border border-solid basis-0 bg-neutral-700 border-neutral-700 w-[234px]" />
             </div>
             <div className="mt-2 text-6xl font-bold tracking-normal leading-tight text-zinc-200 max-md:text-4xl max-sm:text-4xl">
-              <span className="space-grotesk text-6xl leading-[67px] tracking-tight max-sm:text-4xl">
+              <span className="space-grotesk text-6xl drop-shadow-xs drop-shadow-white/40 leading-[67px] tracking-tight max-sm:text-4xl">
                 {price}
               </span>
               <span className="space-grotesk text-4xl leading-[67px] tracking-tight max-sm:text-2xl">
