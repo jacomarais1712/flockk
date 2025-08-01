@@ -21,7 +21,7 @@ const statsDataExample = [
 function CaseStudyStat({ statsData }) {
 
   return (
-    <section className="box-border flex relative flex-col gap-20 items-start p-16 w-full max-w-full max-md:px-8 max-md:py-12 max-sm:px-4 max-sm:py-8">
+    <section className="box-border flex relative flex-col gap-20 items-start p-16 w-full max-w-full max-md:px-8 max-md:py-12 max-sm:px-4 max-sm:py-8 max-sm:order-2">
       <div className="box-border flex relative flex-col gap-16 items-start self-stretch p-8 rounded-lg max-md:gap-12 max-md:p-6 max-sm:gap-8 max-sm:p-4">
         <div className="flex relative gap-6 justify-center items-center self-stretch max-sm:flex-col max-sm:gap-8">
           <StatItem

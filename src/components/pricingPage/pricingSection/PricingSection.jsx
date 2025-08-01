@@ -64,7 +64,6 @@ function PricingSection() {
             backgroundImage="https://cdn.builder.io/api/v1/image/assets/TEMP/0c543433fc0c55389128b07a59ca93b961e5b0dd?placeholderIfAbsent=true&apiKey=a8edfbc5dc304354a1953eb3bb47917c"
             icon="https://cdn.builder.io/api/v1/image/assets/TEMP/e0ba2321e0a28e786a50404f068a40ec87cd5064?placeholderIfAbsent=true&apiKey=a8edfbc5dc304354a1953eb3bb47917c"
             title="Scale"
-            badge="Most Popular"
             description="For growing brands ready to level up."
             subtitle="This package focuses on intensive optimization and scaling. We'll audit and restructure your existing efforts to unlock new levels of performance."
             bestForItems={[

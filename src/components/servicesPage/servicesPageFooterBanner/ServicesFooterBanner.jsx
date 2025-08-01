@@ -23,7 +23,7 @@ function ServicesFooterBanner({ handleLinkClick }) {
             onClick={() => handleLinkClick(600)}
           >
             <span className="self-stretch my-auto text-zinc-900">
-              Speak To Us
+              Let's Talk
             </span>
           </Link>
           <img

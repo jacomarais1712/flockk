@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 export const ActionButtons = ({
-  primaryText = "Get In Touch",
+  primaryText = "Let's Talk",
   secondaryText = "See Our Work",
   onPrimaryClick,
   onSecondaryClick
@@ -24,7 +24,7 @@ export const ActionButtons = ({
           />
         </button>
       </Link>
-      <Link to='/caseStudy/1'>
+      <Link to='/services'>
         <button
           className="flex gap-1 justify-center items-center cursor-pointer self-stretch py-2.5 pr-1.5 pl-3.5 my-auto text-neutral-50 rounded link max-sm:border-1 max-sm:border-neutral-50 max-sm:border-solid"
           onClick={() => onSecondaryClick(0)}

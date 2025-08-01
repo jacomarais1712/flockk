@@ -4,7 +4,7 @@ import { ValuesGrid } from "./valuesComp/ValuesGrid";
 import { BackgroundBlur } from "../../reuse/comp/BackgroundBlur";
 
 export const ValuesSection = () => {
-  const backgroundBlur = 'absolute left-[-400px] top-[1800px] w-[725px] h-[725px] max-sm:opacity-90 rounded-full opacity-55 z-1 aspect-square pointer-events-none'
+  const backgroundBlur = 'absolute left-[-400px] top-[1800px] w-[725px] h-[725px] max-sm:opacity-75 rounded-full opacity-55 z-1 aspect-square pointer-events-none'
   return (
     <section className="flex flex-wrap gap-10 justify-between items-start px-16 py-28 max-md:px-5 max-md:py-24">
       <SectionTitle

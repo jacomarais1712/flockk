@@ -22,7 +22,7 @@ function FooterBanner() {
         iconSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/31b8cdb16d5402e0fe2c7a90e484bc499c8c0500?placeholderIfAbsent=true&apiKey=4150577930e34c34b4921d69bc569f64"
         heading="Let’s Find Your Flockk"
         description="We’ll deliver a custom Google Ads strategy with meticulous execution and transparent tracking for confident scaling."
-        buttonText="Contact Us"
+        buttonText="Let's Talk"
         buttonIconSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/22a32b9c9ffadccdbeb5b31859a7e848b6261a84?placeholderIfAbsent=true&apiKey=4150577930e34c34b4921d69bc569f64"
         onButtonClick={handleButtonClick}
       />

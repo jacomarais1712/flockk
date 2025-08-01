@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-function CaseStudyDropDown({ direction, ...args }) {
+function CaseStudyDropDown({ navItem, windowLocation, handleNavClick, direction, ...args }) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
 
@@ -30,6 +30,7 @@ function CaseStudyDropDown({ direction, ...args }) {
   }, []);
 
   const handleItemClick = (callback) => {
+    handleNavClick('casestudy');
     if (callback) callback();
     setDropdownOpen(false);
   };
@@ -39,7 +40,7 @@ function CaseStudyDropDown({ direction, ...args }) {
       <div ref={dropdownRef} className="relative inline-block">
         <span
           onClick={toggle}
-          className="cursor-pointer transition-colors duration-200 select-none max-lg:text-sm"
+          className={`cursor-pointer transition-colors duration-200 select-none max-lg:text-sm ${navItem === 'casestudy' ? 'nav-link-active' : 'nav-link'}`}
           role="button"
           tabIndex={0}
           onKeyDown={(e) => {

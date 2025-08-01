@@ -7,7 +7,7 @@ export const HeroSection = ({
   tagline = "Why Partner With Flockk?",
   heading = "Results are a given.\nSuccess is in the details.",
   description = "Flockk is your dedicated growth partner, built on a foundation of technical expertise. We don't just manage campaigns; we master the entire Google Ads and Analytics ecosystem to unlock opportunities other agencies miss.",
-  primaryButtonText = "Get in Contact",
+  primaryButtonText = "Let's Talk",
   secondaryButtonText = "See Pricing & Packages",
   onPrimaryClick,
   onSecondaryClick

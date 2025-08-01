@@ -9,8 +9,8 @@ import TestimonialSection from '../components/reuse/testimonials/TestimonialSect
 import ServicesFooterBanner from '../components/servicesPage/servicesPageFooterBanner/ServicesFooterBanner'
 
 const Services = () => {
-    const BackgroundBlurStyle ='absolute left-[-500px] bottom-[-400px] w-[725px] h-[725px] max-sm:opacity-80 rounded-full opacity-50 z-1 aspect-square pointer-events-none'
-    const BackgroundBlurStyle2 = 'absolute right-[-548px] bottom-[320px] w-[725px] h-[725px] max-sm:opacity-80 rounded-full opacity-55 z-1 aspect-square pointer-events-none'
+    const BackgroundBlurStyle ='absolute left-[-500px] bottom-[-400px] w-[725px] h-[725px] max-sm:opacity-80 rounded-full opacity-70 z-1 aspect-square pointer-events-none'
+    const BackgroundBlurStyle2 = 'absolute right-[-548px] bottom-[320px] w-[725px] h-[725px] max-sm:opacity-80 rounded-full opacity-65 z-1 aspect-square pointer-events-none'
     const testimoniesPer = {
         amount: 1,
         background: false
@@ -39,7 +39,7 @@ const Services = () => {
         },
         buttons: { //set the 2 buttons you need, the second button will not have an arrow
             button1: {
-                name: "Book a Call",
+                name: "Let's Talk",
                 arrowIcon: true,
                 link: '/contact'
             }

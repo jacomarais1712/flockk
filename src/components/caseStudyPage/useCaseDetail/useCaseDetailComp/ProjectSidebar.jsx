@@ -18,7 +18,7 @@ export function ProjectSidebar({ projectDetail }) {
   const locationIcon = `<svg id="4066:2299" layer-name="Map-Pin-2-Line--Streamline-Remix" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="sidebar-icon" style="width: 24px; height: 24px; position: relative"> <g clip-path="url(#clip0_4066_2299)"> <path d="M12 24.2279L5.63604 17.864C2.12132 14.3492 2.12132 8.65076 5.63604 5.13604C9.15076 1.62132 14.8492 1.62132 18.364 5.13604C21.8787 8.65076 21.8787 14.3492 18.364 17.864L12 24.2279ZM16.9497 16.4497C19.6834 13.7161 19.6834 9.28392 16.9497 6.55025C14.2161 3.81658 9.78392 3.81658 7.05025 6.55025C4.31658 9.28392 4.31658 13.7161 7.05025 16.4497L12 21.3995L16.9497 16.4497ZM12 13.5C10.8954 13.5 10 12.6046 10 11.5C10 10.3954 10.8954 9.5 12 9.5C13.1046 9.5 14 10.3954 14 11.5C14 12.6046 13.1046 13.5 12 13.5Z" fill="#23F399"></path> </g> <defs> <clipPath id="clip0_4066_2299"> <rect width="24" height="24" fill="white" transform="translate(0 0.5)"></rect> </clipPath> </defs> </svg>`;
 
   return (
-    <aside className="flex relative flex-col gap-5 items-start p-6 rounded-lg border-solid backdrop-blur-[20px] border-[1.5px] border-emerald-200 border-opacity-30 w-[421px] max-md:w-full max-sm:gap-4 max-sm:p-4">
+    <aside className="flex relative flex-col gap-5 items-start p-6 rounded-lg border-solid backdrop-blur-[20px] border-[1.5px] border-emerald-200 border-opacity-30 w-[421px] max-md:w-full max-sm:gap-4 max-sm:p-4 max-sm:order-first">
       <header>
         <h2 className="relative self-stretch text-3xl font-medium tracking-normal leading-9 text-zinc-200 max-sm:text-2xl">
           About the Project

@@ -10,8 +10,8 @@ import TestimonialSection from '../components/reuse/testimonials/TestimonialSect
 import FooterBanner from '/src/components/homePage/homeFooterBanner/FooterBanner'
 
 const Home = () => {
-    const BackgroundBlurStyle ='absolute left-[-600px] bottom-[-220px] w-[725px] h-[725px] max-sm:opacity-80 rounded-full opacity-50 z-1 aspect-square pointer-events-none'
-    const BackgroundBlurStyle2 = 'absolute right-[-548px] bottom-[320px] w-[725px] h-[725px] max-sm:opacity-80 rounded-full opacity-55 z-1 aspect-square pointer-events-none'
+    const BackgroundBlurStyle ='absolute left-[-600px] bottom-[-220px] w-[725px] h-[725px] max-sm:opacity-75 max-sm:left-[-450px] rounded-full opacity-70 z-1 aspect-square pointer-events-none'
+    const BackgroundBlurStyle2 = 'absolute right-[-548px] bottom-[320px] w-[725px] h-[725px] max-sm:opacity-75 max-sm:right-[-548px]] rounded-full opacity-65 z-1 aspect-square pointer-events-none'
     const homeHeader = {
         height: "513px",
         width: "767px",
@@ -40,13 +40,13 @@ const Home = () => {
         }, 
         buttons: { //set the 2 buttons you need, the second button will not have an arrow
             button1: {
-                name: "Book a Call",
+                name: "Let's Talk",
                 arrowIcon: true,
                 link: "/contact"
             },
             button2: {
                 name: "See What We Do",
-                link: "/about"
+                link: "/services"
             }
         }
     }

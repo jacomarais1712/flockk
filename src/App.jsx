@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react'
 import {
   createBrowserRouter,
   RouterProvider,
-  Outlet
+  Outlet,
+  useLocation
 } from "react-router-dom";
 import NavBarDesktop from '/src/components/reuse/navbarDesktop/NavBarDesktop'
 import Footer from '/src/components/reuse/footer/Footer'
@@ -19,6 +20,7 @@ import CaseStudy4 from './Containers/case studies/CaseStudy4';
 import './App.css'
 
 function Layout() {
+  const windowLocation = window.location.pathname;
   const [navItem, setNavItem] = useState('home')
 
   const handleNavClick = (menuItem) => {
@@ -29,7 +31,17 @@ function Layout() {
   const footerButtonClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
-
+  const location = useLocation();
+  useEffect(() => {
+    const pathname = location.pathname;
+    if (pathname === '/contact') {
+      setNavItem('none');
+    }
+  }, [location.pathname]);
+  
+  useEffect(() => {
+      console.log(navItem);
+  }, [navItem]);
   return (
     <>
       <NavBarDesktop navItem={navItem} handleNavClick={handleNavClick}/>

@@ -12,7 +12,7 @@ export const NavigationLinks = ({ navItem, handleNavClick }) => {
             onClick={() => {handleNavClick('home')}}
             className="flex relative gap-1 justify-center items-center"
           >
-            <span className={`relative text-base font-bold tracking-wide leading-6 max-lg:text-xs ${windowLocation === '/' || windowLocation === '/contact' ? 'nav-link-active' : 'nav-link'}`}>
+            <span className={`relative text-base font-bold tracking-wide leading-6 max-lg:text-xs ${windowLocation === '/' ? 'nav-link-active' : 'nav-link'}`}>
               Home
             </span>
           </Link>
@@ -50,8 +50,8 @@ export const NavigationLinks = ({ navItem, handleNavClick }) => {
           </Link>
         </li>
         <li className="flex relative flex-col gap-2 items-start">
-            <span className={`${windowLocation.includes('/caseStudy/') ? 'nav-link-active' : 'nav-link'}`}>
-              <CaseStudyDropDown />
+            <span className={`${windowLocation.includes('/casestudy/') ? 'nav-link-active' : 'nav-link'}`}>
+              <CaseStudyDropDown navItem={navItem} handleNavClick={handleNavClick} windowLocation={windowLocation}/>
             </span>
         </li>
       </ul>

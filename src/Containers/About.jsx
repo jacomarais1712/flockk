@@ -9,12 +9,13 @@ import TrustedBrandsCarousel from '../components/reuse/trustedBrandsCarousel/Tru
 import AboutFooterBanner from '../components/aboutPage/aboutFooterBanner/AboutFooterBanner'
 
 const About = () => {
-    const HeaderStyle = 'absolute right-[-548px] bottom-[320px] w-[725px] h-[725px] max-sm:opacity-70 rounded-full opacity-55 z-1 aspect-square pointer-events-none'
+    const HeaderStyle = 'absolute right-[-548px] bottom-[320px] w-[725px] h-[725px] max-sm:right-[-500px] max-sm:opacity-80 rounded-full opacity-70 z-1 aspect-square pointer-events-none'
+    const HeaderStyle2 = 'absolute left-[-600px] bottom-[-220px] w-[725px] h-[725px] max-sm:left-[-500px] max-sm:opacity-80 rounded-full opacity-70 z-1 aspect-square pointer-events-none'    
     const servicesHeadline = 'What We Do Best'
     const header = {
         height: "500px",
         width: '755px',
-        backgroundBlur: 1, //if only 1 is received, top right will be displayed but not bottom left, 2 will display both
+        backgroundBlur: 2, //if only 1 is received, top right will be displayed but not bottom left, 2 will display both
         tagline: 'ABOUT US',
         headline: {
             title: "Your Growth",
@@ -28,6 +29,9 @@ const About = () => {
         radialBgs: {
             radial1: {
                 style: HeaderStyle,
+            },
+            radial2: {
+                style: HeaderStyle2,
             },
         }
     }

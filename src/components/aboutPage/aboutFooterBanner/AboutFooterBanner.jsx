@@ -29,7 +29,7 @@ function AboutFooterBanner() {
               iconSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/526482164ebe7541eb4c3abb23766804a7113542?placeholderIfAbsent=true&apiKey=b57ec36c5a364c76a8ad0ee0e3eff0ce"
               iconAlt="Arrow icon"
             >
-              Contact Us
+              Let's Talk
             </GradientButton>
           </div>
         </div>

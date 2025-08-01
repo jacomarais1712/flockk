@@ -8,7 +8,7 @@ export const ExpertiseHero = ({
   tagText = "Our Expertise",
   heading = "Meet Francois: Director & Paid Media Strategist",
   description = "Leveraging over a decade of hands-on performance marketing experience, Francois drives sustainable growth for brands across Europe and South Africa. He translates complex data into actionable strategy, delivering measurable results through smart, intentional execution. His approach ensures every campaign is meticulously crafted to achieve your core marketing and business objectives.",
-  primaryButtonText = "Get In Touch",
+  primaryButtonText = "Let's Talk",
   secondaryButtonText = "See Our Work",
   onPrimaryClick,
   onSecondaryClick

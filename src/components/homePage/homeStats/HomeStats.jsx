@@ -4,7 +4,7 @@ import StatDivider from './homeStatsComp/StatDivider';
 import { BackgroundBlur } from '../../reuse/comp/BackgroundBlur';
 
 const HomeStats = () => {
-  const backgroundBlurStyle = 'absolute right-[-440px] bottom-[-291px] w-[725px] h-[725px] rounded-full opacity-50 z-1 aspect-square'
+  const backgroundBlurStyle = 'absolute right-[-440px] bottom-[-291px] w-[725px] h-[725px] max-sm:bottom-[-90px] rounded-full opacity-50 z-1 aspect-square'
   const statsData = [
     {
       value: "10+ Years",

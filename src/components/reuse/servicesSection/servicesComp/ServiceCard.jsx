@@ -44,7 +44,7 @@ export function ServiceCard({
 
         <div className="flex gap-6 items-center mt-12 w-full text-base font-bold tracking-wide text-emerald-400">
           <Link 
-            to='/contact'
+            to='/services'
             onClick={() => onLearnClick()}
           >
             <button className="flex gap-1.5 justify-center items-center self-stretch my-auto cursor-pointer">

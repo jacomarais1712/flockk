@@ -33,7 +33,7 @@ const CaseStudy1 = () => {
             "Drive consideration and website engagement",
             "Grow online sales and market share"
         ],  
-        actionsTakenHeading: "Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.",
+        actionsTakenHeading: "To help Oh My Cake! reach new audiences and convert high-intent users, we implemented a full-funnel Google Ads strategy focused on Search, Display, and Shopping formats.",
         actions: [
             "Search Campaigns targeted lower-funnel, high-intent keywords like “buy cake online” to capture users ready to make a purchase.",
             "Display Campaigns were designed to build brand awareness and drive consideration. We also ran dynamic re-marketing using custom audiences to re-engage users based on their browsing behavior and interests.",
